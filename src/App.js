@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-6 main-part">
             <h1>Get insights that help your business grow.</h1>
             <p>
               {" "}

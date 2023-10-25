@@ -1,0 +1,32 @@
+body {
+  background-color: #090b1a;
+  font-family: "Inter", sans-serif;
+}
+.App img {
+  width: 550px;
+  border-radius: 0 10px 10px 0;
+}
+.App h1 {
+  font-size: 2.1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 3.5rem;
+  line-height: 1.3;
+}
+.App .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  color: white;
+  min-height: 100vh;
+}
+.App .main-part {
+  background-color: #1b1938;
+  text-align: center;
+  width: 550px;
+  margin: 0;
+  border-radius: 10px 0 0 10px;
+  position: relative;
+  left: 12px;
+  padding: 3rem 1.5rem;
+}
