@@ -2,15 +2,26 @@ body {
   background-color: #090b1a;
   font-family: "Inter", sans-serif;
 }
+
 .App img {
   width: 550px;
   border-radius: 0 10px 10px 0;
 }
+
 .App h1 {
-  font-size: 2.1rem;
-  margin-bottom: 1.5rem;
-  margin-top: 3.5rem;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding: 2px;
   line-height: 1.3;
+  font-weight: bold;
+}
+.App p {
+  font-size: 13px;
+  color: hsla(0, 0%, 100%, 0.6);
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  word-spacing: 0.4px;
 }
 .App .container {
   display: flex;
@@ -20,13 +31,31 @@ body {
   color: white;
   min-height: 100vh;
 }
+
 .App .main-part {
   background-color: #1b1938;
-  text-align: center;
-  width: 550px;
+
+  width: 500px;
   margin: 0;
   border-radius: 10px 0 0 10px;
   position: relative;
   left: 12px;
-  padding: 3rem 1.5rem;
+  padding: 80px;
+}
+.App .insight {
+  color: hsl(277, 64%, 61%);
+}
+.App .furtherInfo {
+  position: relative;
+  top: 50px;
+}
+.App .number {
+  font-size: 20px;
+  font-weight: bold;
+}
+.App .info {
+  font-size: 10px;
+  color: hsla(0, 0%, 100%, 0.6);
+
+  letter-spacing: 1px;
 }
